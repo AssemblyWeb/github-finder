@@ -12,7 +12,7 @@ const userItem = ({user: { login, avatar_url, html_url }}) => {
         </div>
     )
 }
-userItem.propTypes ={
+userItem.propTypes = {
     user: PropTypes.object.isRequired
 }
 export default userItem
